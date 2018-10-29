@@ -86,6 +86,7 @@ def print_mimic(mimic_dict, word):
             story += word_key + ' '
     
     print story
+    return story
 
 # Provided main(), calls mimic_dict() and mimic()
 def main():
